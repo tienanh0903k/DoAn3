@@ -1,0 +1,18 @@
+{
+  "category_id": 2,
+  "title": "Ao nam day mua dong",
+  "price":20000,
+  "discount": 100000,
+  "thumbnail": "img/nta.png",
+  "description": "Ao nam day mua dong",
+  "list_json_ctsanpham": [
+    {
+      "thumb": "img/red.png",
+      "color": "red"
+    },
+    {
+      "thumb": "img/blue.png",
+      "color": "blue"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# POST http://localhost:3001/api/user/register
+# Content-Type: application/json
+
+# {
+#   "fullname": "NTA",
+#   "email": "NTAdoe@example.com",
+#   "phone_number": "123456789",
+#   "address": "123 Main Street",
+#   "password": "password123",
+#   "role_id": 1,
+#   "status": 1
+# }
+
+
+//------CATEGORY--------------
+# GET http://localhost:3001/api/category/1
+GET http://localhost:3001/api/category/
+
+npx sequelize-cli model:generate --name Role --attributes firstName:string,lastName:string,email:string
